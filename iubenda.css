@@ -500,10 +500,6 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   opacity: 0.8 !important;
 }
 
-#iubenda-cs-banner .iubenda-cs-opt-group button:hover {
-  opacity: 0.5 !important;
-}
-
 @media (min-width: 640px) {
   #iubenda-cs-banner .iubenda-cs-opt-group button:not(:last-of-type) {
     margin-right: 8px !important;
@@ -683,8 +679,8 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 }
 
 #iubenda-cs-banner .iubenda-cs-content {
-  background-color: #000 !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #000 !important;
 }
 
 #iubenda-cs-banner .iubenda-cs-opt-group {
@@ -693,13 +689,23 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 
 #iubenda-cs-banner .iubenda-cs-opt-group button {
   background-color: transparent;
+  color: #000000 !important;
+}
+
+
+
+#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary {
+  background-color: #141414 !important;
+  padding:18px !important;
   color: #ffffff !important;
 }
 
-#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary {
-  background-color: #00c65e !important;
+#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary:hover {
+  background-color: #272A27 !important;
+  padding:18px !important;
   color: #ffffff !important;
 }
+
 
 .iubenda-tp-btn:not([data-tp-nostyle]) {
   font-size: 100% !important;
